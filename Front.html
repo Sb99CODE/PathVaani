@@ -11,35 +11,95 @@
 <body>
 
     <div id="top">
-        <div>DATE</div>
-        <div> MONTH</div>
-        <div> TEXT SIZE</div>
-        <div> LANGUAGE</div>
+        <div id="top1">
+            <script>
+                var dt = new Date();
+                document.getElementById('top').innerHTML = dt;
+            </script>
+        </div>
+
+        <div id="top2"> <button class="lang" onclick="changeLanguage('eng')">
+                English</button>
+            <button class="lang" onclick="changeLanguage('hin')">हिंदी
+            </button>
+        </div>
+
     </div>
-    <div id="logo"> LOGO</div>
-    <div id="search"> SEARCH BAR</div>
-    <div id="nav">
-        <div id="a">HOME</div>
-        <div id="b">DASHBOARD</div>
-        <div id="c">RESOURCES</div>
-        <div id="d">UNIVERSITIES</div>
-        <div id="e">SCHEMES</div>
-        <div id="f">TOOLS</div>
-        <div id="g">CONTACT US</div>
+
+    <div id="logo">
+        <img src="PAATHVAANI\circular logo.png" alt="PAATHVAANI : The Voice Of Curriculum">
+        <h1>PAATHVANI :</h1>
+        <h1>The Voice Of Curriculum</h1>
     </div>
-    <div id="slides">
-        <DIV id="slide1">SLIDES</DIV>
+
+    <div id="navigation">
+        <div id="nav1">
+            <a href="#">Home</a>
+            <a href="#">Dashboard</a>
+            <a href="#">Universities</a>
+            <a href="#">Tools</a>
+            <a href="#">Resources</a>
+            <a href="#">Contact Us</a>
+        </div>
     </div>
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="PAATHVAANI\health.png"
+                    alt="3D rendering of an imaginary orange planet in space" />
+                <img id="slide-2" src="PAATHVAANI\Welcome To 4.png"
+                    alt="3D rendering of an imaginary green planet in space" />
+                <img id="slide-3" src="PAATHVAANI\Welcome To 2.png"
+                    alt="3D rendering of an imaginary blue planet in space" />
+                <img id="slide-4" src="PAATHVAANI\WEWP 2023.png"
+                    alt="3D rendering of an imaginary blue planet in space" />
+                <img id="slide-5" src="PAATHVAANI\Welcome To 1.png"
+                    alt="3D rendering of an imaginary blue planet in space" />
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                <a href="#slide-5"></a>
+            </div>
+        </div>
+    </section>
+
     <div id="div1">
-        <div id="quicklinks"> ''''QUICK LINKS </div>
-        <div id="image">'''For image</div>
-        <div id="bullets"> '''BULLETINS</div>
+        <div id="quicklinks">
+
+            <ul class="list-inline">
+                <h2 id="QL"> QUICK LINKS </h2>
+                <li class="list-inline-item"><a href="#">Block play for all childern</a></li>
+                <li class="list-inline-item"><a href="#">Vidyanjali-HE</a></li>
+                <li class="list-inline-item"><a href="#">Language Translation Tool</a></li>
+                <li class="list-inline-item"><a href="#">Policies and reforms</a></li>
+                <li class="list-inline-item"><a href="#">Scholastic awards</a></li>
+                <li class="list-inline-item"><a href="#">AICTE</a></li>
+            </ul>
+        </div>
+        <div id="image">
+            <div> <img id="centerimage" src="PAATHVAANI\center image.png" alt=""></div>
+        </div>
+        <div id="bullets">
+            <ul class="list-inline2">
+                <h2 id="BL"> BULLETINS </h2>
+                <li class="list-inline-item2"><a href="#">National new education policy(2023)</a></li>
+                <li class="list-inline-item2"><a href="#">Vidyalakshmi scheme</a></li>
+                <li class="list-inline-item2"><a href="#">Bhartiya Shiksha Board</a></li>
+                <li class="list-inline-item2"><a href="#">NCF-2023</a></li>
+                <li class="list-inline-item2"><a href="#">Sarva Siksha Abhiyaan</a></li>
+            </ul>
+        </div>
     </div>
+
     <div id="div2">
         <div id="resources"> '''RESOURCES</div>
         <div id="changes"> ''''CHANGES</div>
         <div id="reports"> '''REPORTS</div>
     </div>
+
     <div id="footer1">TERMS , PRIVACY POLICY</div>
     <div id="footer2"> COPYRIGHT</div>
 
