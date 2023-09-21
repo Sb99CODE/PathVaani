@@ -1,17 +1,25 @@
-body{
-    background-color: rgb(234, 239, 243);
+body {
+    background-color: rgb(255, 255, 255);
 }
 
 #top {
     height: 20px;
     width: 100%;
     background-color: #222248;
-    margin-bottom: 15px;
+    margin-top: 0%;
+    margin-bottom: 5px;
     color: aliceblue;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lang{
+    background-color: #222248;
+    color: white;
+    height: 18px;
 }
 
-#top div{
+#top div {
     margin-left: 15px;
     width: 25vw;
 }
@@ -19,53 +27,105 @@ body{
 #logo {
     height: 80px;
     width: 100%;
-    background-color: aqua;
+    background: rgb(221, 205, 242);
+    background: linear-gradient(90deg, rgb(221, 205, 242), rgb(178, 141, 225) 100%, rgb(167, 126, 221) 100%);
     margin-bottom: 15px;
-}
-
-#search {
-    height: 35px;
-    width: 100%;
     display: flex;
-    background-color: bisque;
-    margin-bottom: 15px;
 }
 
+#logo .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
 
+#logo h1 {
+    align-self: center;
+    margin-left: 30px;
+}
 
-#nav {
+#navigation {
     height: 60px;
     width: 100%;
-    background-color: chartreuse;
-    margin-bottom: 15px;
     display: flex;
+    background-color: rgb(221, 205, 242);
+    justify-content: space-between;
+    align-items: center;
 }
 
-#a,
-#b,
-#c,
-#d,
-#e,
-#f,
-#g {
-    margin: 10px;
-    width:14vw;
+#nav1 {
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
-#slides {
-    height: 400px;
+#slide{
+    height: 550px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
-    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-#slide1 {
-    width: 100vw;
-    margin: 30px;
-    border: 5px;
-    border-style: solid;
+.container {
+	padding: 2rem;
 }
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 17 / 11;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #c28ae2;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
 
 #div1 {
     height: 400px;
@@ -73,25 +133,77 @@ body{
     /* background-color: rgb(171, 204, 232); */
     margin-bottom: 15px;
     display: flex;
-    color: beige;
+    color: white;
+  
 }
 
 #quicklinks {
-    width: 30vw;
-    background-color: rgb(18, 67, 84);
+    width: 23%;
+    color: black;
+    /* background-color: rgb(146, 139, 156); */
     margin: 20px;
+    display: flex;
+    margin-left: 30px;
+    gap: 20px;
+}
+#QL,#BL{
+    color:rgb(84, 62, 165) ;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(93, 67, 120);
+}
+.list-inline{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.list-inline-item{
+    height: 40px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(203, 201, 203);
+}
+.list-inline2{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.list-inline-item2{
+    height: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(203, 201, 203);
 }
 
+.list-inline-item a, .list-inline-item2 a{
+    text-decoration: none;
+}
+
+.list-inline-item a:hover, .list-inline-item2 a:hover{
+  color: rgb(99, 183, 99);
+}
+
+
 #image {
-    width: 40vw;
-    background-color: rgb(18, 67, 84);
+    width: 50vw;
+    background-color: rgb(146, 139, 156);
     margin: 20px;
+    display: flex;
+}
+
+#centerimage {
+    height: 100%;
+    width: 100%;
 }
 
 #bullets {
-    width: 30vw;
-    background-color: rgb(18, 67, 84);
+    width: 23%;
+    color: black;
+    /* background-color: rgb(146, 139, 156); */
     margin: 20px;
+    display: flex;
+    margin-left: 30px;
+    gap: 20px;
 }
 
 #div2 {
