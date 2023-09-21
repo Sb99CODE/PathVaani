@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(234, 239, 243);
+}
+
+#top {
+    height: 20px;
+    width: 100%;
+    background-color: #222248;
+    margin-bottom: 15px;
+    color: aliceblue;
+    display: flex;
+}
+
+#top div{
+    margin-left: 15px;
+    width: 25vw;
+}
+
+#logo {
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+#search {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    margin-bottom: 15px;
+}
+
+
+
+#nav {
+    height: 60px;
+    width: 100%;
+    background-color: chartreuse;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#a,
+#b,
+#c,
+#d,
+#e,
+#f,
+#g {
+    margin: 10px;
+    width:14vw;
+}
+
+#slides {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#slide1 {
+    width: 100vw;
+    margin: 30px;
+    border: 5px;
+    border-style: solid;
+}
+
+#div1 {
+    height: 400px;
+    width: 100%;
+    /* background-color: rgb(171, 204, 232); */
+    margin-bottom: 15px;
+    display: flex;
+    color: beige;
+}
+
+#quicklinks {
+    width: 30vw;
+    background-color: rgb(18, 67, 84);
+    margin: 20px;
+}
+
+#image {
+    width: 40vw;
+    background-color: rgb(18, 67, 84);
+    margin: 20px;
+}
+
+#bullets {
+    width: 30vw;
+    background-color: rgb(18, 67, 84);
+    margin: 20px;
+}
+
+#div2 {
+    height: 300px;
+    width: 100%;
+    /* background-color: gold; */
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#resources {
+    border-radius: 10px;
+    width: 33vw;
+    background-color: rgb(148, 98, 98);
+    margin: 20px;
+}
+
+#changes {
+    border-radius: 10px;
+    width: 33vw;
+    background-color: rgb(148, 98, 98);
+    margin: 20px;
+}
+
+#reports {
+    border-radius: 10px;
+    width: 33vw;
+    background-color: rgb(148, 98, 98);
+    margin: 20px;
+}
+
+#footer1 {
+    background-color: lightcoral;
+    height: 30PX;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#footer2 {
+    background-color: plum;
+    height: 20PX;
+    width: 100%;
+    margin-bottom: 10px;
+}
