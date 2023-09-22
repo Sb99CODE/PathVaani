@@ -136,3 +136,13 @@ body{
     width: 100%;
     margin-bottom: 10px;
 }
+
+button>div{
+    display: inline;
+}
+#footer2 {
+    background-color: plum;
+    height: 20PX;
+    width: 100%;
+    margin-bottom: 10px;
+}
