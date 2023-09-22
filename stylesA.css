@@ -137,12 +137,27 @@ body{
     margin-bottom: 10px;
 }
 
-button>div{
-    display: inline;
+.nan{
+    display: flex;
 }
-#footer2 {
-    background-color: plum;
-    height: 20PX;
-    width: 100%;
-    margin-bottom: 10px;
+
+#bullu{
+   height: 65px;
+   width: 65px;
 }
+
+#cullu{
+    height: 65px;
+    width: 65px;
+ }
+
+ #gullu{
+    height: 65px;
+    width: 65px;
+ }
+
+ div>h5{
+    font-size: 26px;
+ }
+
+
